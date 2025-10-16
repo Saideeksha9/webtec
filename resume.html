@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sai Deeksha - Resume</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f7f8;
+      color: #34568B;
+      margin: 0; padding: 0;
+    }
+    nav {
+      background: #34568B;
+      padding: 1em;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      color: white;
+    }
+    nav a {
+      color: white;
+      margin: 0 1.2em;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem 3rem;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgb(0 0 0 / 0.1);
+    }
+    .profile-pic-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1.4rem;
+    }
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #34568B;
+      box-shadow: 0 3px 14px rgb(0 0 0 / 0.15);
+    }
+    h1, h2 {
+      text-align: center;
+      color: #3f547a;
+      margin-bottom: 0.2rem;
+    }
+    h2 {
+      font-weight: 400;
+      margin-top: 0;
+      
+      color: #607caa;
+    }
+    .contact-info {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 1rem;
+    }
+    hr {
+      border: none;
+      height: 1px;
+      background: #34568B;
+      margin-bottom: 2rem;
+      opacity: 0.8;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    section h3 {
+      border-bottom: 2px solid #34568B;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+      color: #34568B;
+      font-weight: 600;
+    }
+    ul {
+      list-style: square inside;
+      line-height: 1.5;
+    }
+    ul ul {
+      list-style-type: circle;
+      margin-left: 1rem;
+    }
+    p.skill-list {
+      line-height: 1.6;
+      font-style: italic;
+      color: #445577;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="biodata.html">Bio-data</a>
+  </nav>
+  <div class="container">
+    <div class="profile-pic-container">
+      <img src="https://th.bing.com/th/id/OIP._hYsk7jeqC5RRyuF4Is9vAAAAA?w=191&h=217&c=7&r=0&o=5&pid=1.7" alt="John Doe" class="profile-pic" />
+    </div>
+    <h1>Sai Deeksha A N</h1>
+    <h2>Web Developer</h2>
+    <div class="contact-info">
+      <a href="mailto:sai2005@gmail.com">sai2005@email.com</a> | (+91) 9087542562
+    </div>
+    <hr />
+    <section>
+      <h3>Professional Summary</h3>
+      <p>Innovative web developer with 5+ years experience designing and developing user-centered digital solutions. Skilled in front-end and back-end technologies with a passion for responsive design and user experience.</p>
+    </section>
+    <section>
+      <h3>Work Experience</h3>
+      <ul>
+        <li>
+          <strong>Software Engineer</strong>, ABC Corp (2022 – Present)
+          <ul>
+            <li>Led delivery of scalable web applications improving user engagement by 30%</li>
+            <li>Collaborated cross-functionally to refine UI design and implemented API integrations</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Junior Developer</strong>, XYZ Solutions (2020 – 2022)
+          <ul>
+            <li>Maintained corporate websites with 99.9% uptime</li>
+            <li>Developed automated test scripts to cut debugging time by 20%</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h3>Education</h3>
+      <ul>
+        <li>Bachelor of Technology in Computer Science, XYZ University, 2020</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Skills</h3>
+      <p class="skill-list">HTML, CSS, JavaScript, React, Node.js, Git, REST APIs, Agile Methodologies</p>
+    </section>
+  </div>
+</body>
+</html>

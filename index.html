@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sai Deeksha Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #34568B;
+      padding: 1em 0;
+      position: sticky;
+      top: 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+      z-index: 10;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1.5em;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      font-size: 1.1em;
+      transition: color 0.2s;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 15px 30px 15px;
+      min-height: 65vh;
+      text-align: center;
+    }
+    .profile-pic-home {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #34568B;
+      margin-bottom: 16px;
+      box-shadow: 0 4px 24px #667 0.09;
+    }
+    h1 {
+      font-size: 2.7em;
+      color:  #34568B;
+      margin-bottom: 0.1em;
+    }
+    h2 {
+      color: #34568B;
+      font-weight: 400;
+      margin-top: 0;
+      font-size: 1.5em;
+      margin-bottom: 0.7em;
+    }
+    .intro {
+      font-size: 1.15em;
+      color: #333;
+      margin: 0 auto 1.5em auto;
+      max-width: 500px;
+      line-height: 1.6;
+      opacity: 0.95;
+    }
+    .cta-btn {
+      background: #34568B;
+      color: #fff;
+      padding: 0.75em 2em;
+      border-radius: 30px;
+      border: none;
+      font-size: 1.1em;
+      font-weight: bold;
+      box-shadow: 0 4px 14px 0 rgba(44,62,80,.11);
+      cursor: pointer;
+      transition: background 0.2s, box-shadow 0.2s, transform 0.16s;
+      margin-top: 0.7em;
+    }
+    .cta-btn:hover {
+      background: #FFBB00;
+      color: #222;
+      box-shadow: 0 6px 30px #bbb5;
+      transform: translateY(-4px) scale(1.04);
+    }
+    .social-links {
+      margin-top: 1.3em;
+      display: flex;
+      justify-content: center;
+      gap: 1.8em;
+    }
+    .social-links a {
+      color: #34568B;
+      font-size: 2.1em;
+      text-decoration: none;
+      transition: color 0.18s, transform 0.2s;
+    }
+    
+    @media (max-width: 600px) {
+      .hero {
+        padding: 35px 3vw 30px 3vw;
+      }
+      .profile-pic-home {
+        width: 115px;
+        height: 115px;
+      }
+      h1 {
+        font-size: 2em;
+        
+      }
+      h2 {
+        font-size: 1.15em;
+      }
+      .intro {
+        font-size: 1em;
+      }
+      .cta-btn {
+        font-size: 1em;
+      }
+      nav a {
+        margin: 0 0.7em;
+        font-size: 1em;
+      }
+      
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="biodata.html">Bio-data</a>
+  </nav>
+  <div class="hero">
+    <img src="https://th.bing.com/th/id/OIP._hYsk7jeqC5RRyuF4Is9vAAAAA?w=191&h=217&c=7&r=0&o=5&pid=1.7" alt="Sai Deeksha Photo" class="profile-pic-home" />
+    <h1>Sai Deeksha A N</h1>
+    <h2>Web Developer & UI Enthusiast</h2>
+    <div class="intro">
+      Crafting responsive, engaging websites with a passion for clean code and delightful user experiences. Let’s build something amazing together!
+    </div>
+    <button class="cta-btn" onclick="window.location='resume.html'">View My Resume</button>
+    <button class="cta-btn" onclick="window.location='biodata.html'">View My biodata</button>
+    <div class="social-links">
+      <a href="mailto:sai2005@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://linkedin.com/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com/" target="_blank" rel="noopener" title="Twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</body>
+</html>
